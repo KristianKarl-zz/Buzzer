@@ -1,0 +1,13 @@
+Buzzer
+======
+
+Run this program together with Buzzer buttons, orgininally for
+PlayStation.
+
+I use it for quiz that I ocassionally run.
+
+Build
+-----
+The program uses Qt4, so you would need the qt SDK. I used Qt Creator to manage the project.
+There is an additional dependency, joystick++, which now is a part of PLIB at http://plib.sourceforge.net
+

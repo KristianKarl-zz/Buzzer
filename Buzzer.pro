@@ -1,0 +1,12 @@
+TEMPLATE = app
+QT = gui core phonon
+CONFIG += qt release warn_on console
+DESTDIR = bin
+OBJECTS_DIR = build
+MOC_DIR = build
+UI_DIR = build
+INCLUDEPATH+=X11 Xtst Xext
+LIBS+=-L/usr/lib/kde -lkdeui -ljoystick++
+FORMS = ui/mainwindow.ui
+HEADERS = src/mainwindowimpl.h
+SOURCES = src/mainwindowimpl.cpp src/main.cpp
