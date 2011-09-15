@@ -4,7 +4,7 @@ Buzzer
 Run this program together with Buzzer buttons, orgininally for
 PlayStation.
 
-I use it for quiz that I ocassionally run.
+I use it for quiz that I ocassionally run. It's not production ready, but ok for an inital release 0.1
 
 Build
 -----
